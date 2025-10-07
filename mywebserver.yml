@@ -8,5 +8,5 @@
 
   - name: to start the webserver on nodes
     service:
-      name: apache2
-      state: started  
+       name: apache2
+       state: started  
