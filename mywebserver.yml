@@ -4,4 +4,4 @@
   - name: install webserver on ubuntu server
     apt:
       name: apache2
-      state: present
+      state: started
