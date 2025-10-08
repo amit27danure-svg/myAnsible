@@ -6,7 +6,7 @@
   tasks:
    - name: To create file in given path.
      file:
-      path: /home/amit/myAnsible
+      path: /home/amit/myAnsible/myfile_create.txt
       state: touch
 
 
