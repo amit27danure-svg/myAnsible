@@ -8,8 +8,7 @@
      copy:
       src:  /home/amit/myAnsible
       dest: /home/amit
-      content:
-            This file is created on 8th Oct 2025
+     
 
 
 
