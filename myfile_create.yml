@@ -7,7 +7,7 @@
    - name: To create file in given path.
      copy:
       src:  /home/amit/myAnsible
-      dest: /home/amit
+      dest: /home/amit/
      
 
 
