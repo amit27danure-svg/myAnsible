@@ -6,8 +6,7 @@
   tasks:
    - name: To create file in given path.
      file:
-      path: /home/amit/myfile_create.txt
-      state: touch
+      dest: /home/amit/myfile_create.txt
       content:
             This file is created on 8th Oct 2025
 
