@@ -4,6 +4,7 @@
   become: true
 
   tasks:
+   file:
    - name: To create file in given path.
      path: /home/amit/myAnsible
      state: touch
