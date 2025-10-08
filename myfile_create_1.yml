@@ -8,3 +8,8 @@
      file:
         path: /home/amit/myfile.txt
         state: touch
+
+   - name: To create Directory in gievn path
+     file:
+        path: /home/myNewDirectory
+        state: directory
