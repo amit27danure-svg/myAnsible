@@ -8,5 +8,8 @@
      file:
       path: /home/amit/myfile_create.txt
       state: touch
+      content:
+            This file is created on 8th Oct 2025
+
 
 
