@@ -6,5 +6,5 @@
   tasks:
    - name: To create file in given path.
      file:
-     path: /home/amit/myfile.txt
-     state: touch
+        path: /home/amit/myfile.txt
+        state: touch
