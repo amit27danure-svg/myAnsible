@@ -9,6 +9,11 @@
       src:  /home/amit/myAnsible/myfile1.txt
       dest: /home/
      
+   - name: To add some content to file create
+     copy:
+      src:  /home/myNewDirectory/myfile.txt
+      content:
+        This file created in for testing purpose
 
 
 
