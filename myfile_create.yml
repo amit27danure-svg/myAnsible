@@ -6,8 +6,8 @@
   tasks:
    - name: To create file in given path.
      copy:
-      src:  /home/amit/myAnsible
-      dest: /home/amit/
+      src:  /home/amit/myAnsible/myfile1.txt
+      dest: /home/
      
 
 
