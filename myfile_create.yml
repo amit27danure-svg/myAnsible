@@ -6,7 +6,8 @@
   tasks:
    - name: To create file in given path.
      copy:
-      dest: /home/amit/myfile_create.txt
+      src:  /home/amit/myAnsible
+      dest: /home/amit
       content:
             This file is created on 8th Oct 2025
 
